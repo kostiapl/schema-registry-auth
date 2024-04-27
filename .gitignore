@@ -1,0 +1,9 @@
+# Default ignored files
+/avro-test-producer/shelf/
+/avro-test-producer/workspace.xml
+# Editor-based HTTP Client requests
+/avro-test-producer/httpRequests/
+# Datasource local storage ignored files
+/avro-test-producer/dataSources/
+/avro-test-producer/dataSources.local.xml
+/volumes/

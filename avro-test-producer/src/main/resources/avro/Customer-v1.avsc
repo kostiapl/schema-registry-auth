@@ -1,0 +1,11 @@
+{
+     "type": "record",
+     "namespace": "org.example",
+     "name": "Customer",
+     "version": "1",
+     "fields": [
+       { "name": "first_name", "type": "string" },
+       { "name": "last_name", "type": "string" },
+       { "name": "age", "type": "int"}
+     ]
+}

@@ -1,0 +1,10 @@
+{
+     "type": "record",
+     "namespace": "test.com",
+     "name": "Customer",
+     "fields": [
+       { "name": "first_name", "type": "string", "doc": "Customer's first name" },
+       { "name": "last_name", "type": "string", "doc": "Customer's last name" },
+       { "name": "age", "type": "int", "doc": "Customer's age" }
+     ]
+}

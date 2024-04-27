@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  java-producer:
+    container_name: ${PROJECT_NAME}_java-producer
+    hostname: java-producer
+    image: ${PROJECT_NAME}_java-producer
+    build: ./java-producer
+    
+    networks:
+      - ${GLOBAL_NETWORK:-kafka}
